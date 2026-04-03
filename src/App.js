@@ -8,8 +8,11 @@ import ControlledComponents from "./components/ControlledComponents";
 import UncontrolledComponents from "./components/UncontrolledComponents";
 import TaskManagement from "./components/TaskManagement";
 // import MarkDownEditor from "./components/MarkDownEditor";
-import TourPackage from "./components/Tourpackage";
-import "./index.css"
+// import TourPackage from "./components/Tourpackage";
+import LiveSearch from "./components/LiveSearch";
+// import CityDropDown from "./components/CityDropDown";
+import DataFetcher from "./components/DataFetcher";
+import "./index.css";
 
 
 const App =()=>(
@@ -23,7 +26,10 @@ const App =()=>(
         {/* <UncontrolledComponents/> */}
         {/* <TaskManagement/> */}
         {/* <MarkDownEditor/> */}
-        <TourPackage/>
+        {/* <TourPackage/> */}
+        {/* <LiveSearch/> */}
+        {/* <CityDropDown/> */}
+        <DataFetcher/>
     </div>
 )
 
