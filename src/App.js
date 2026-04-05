@@ -12,6 +12,7 @@ import TaskManagement from "./components/TaskManagement";
 import LiveSearch from "./components/LiveSearch";
 // import CityDropDown from "./components/CityDropDown";
 import DataFetcher from "./components/DataFetcher";
+import CityWeather from "./components/CityWeather";
 import "./index.css";
 
 
@@ -29,7 +30,8 @@ const App =()=>(
         {/* <TourPackage/> */}
         {/* <LiveSearch/> */}
         {/* <CityDropDown/> */}
-        <DataFetcher/>
+        {/* <DataFetcher/> */}
+        <CityWeather/>
     </div>
 )
 
