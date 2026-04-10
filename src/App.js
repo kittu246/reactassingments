@@ -14,6 +14,7 @@ import LiveSearch from "./components/LiveSearch";
 import DataFetcher from "./components/DataFetcher";
 import CityWeather from "./components/CityWeather";
 import ImageBazzar from "./components/ImageBazzar";
+import ThemeSwitcher from "./components/ThemeSwitcher";
 import "./index.css";
 
 
@@ -32,7 +33,8 @@ const App =()=>(
         {/* <LiveSearch/> */}
         {/* <CityDropDown/> */}
         {/* <DataFetcher/> */}
-        <ImageBazzar/>
+        {/* <ImageBazzar/> */}
+        <ThemeSwitcher/>
     </div>
 )
 

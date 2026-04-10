@@ -1,7 +1,10 @@
-import React,{useState,useEffect} from "react";
+import React,{useState,useEffect, useContext} from "react";
+
 
 
 const ToDoList =()=>{
+
+    // const{cart,setcart} = useContext(cartContext);
 
     const [userVal,setUserVal] = useState("");
     const [listItem,setListItems] = useState([]);
@@ -22,6 +25,9 @@ const ToDoList =()=>{
 
     return(
         <div className="golfgame">
+            {/* {cart.map((item)=>(
+                <p>{item.name}</p>
+            ))} */}
             <h1>To Do List</h1>
             <div>
                 <input  type="text" placeholder="enter Item" 
